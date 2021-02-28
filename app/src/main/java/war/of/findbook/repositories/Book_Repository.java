@@ -158,7 +158,7 @@ public class Book_Repository {
         reference.child(Firebase_Table.BORROWED_BOOK.name()).child(myID).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-               
+
 
                 ArrayList<Borrowed_Feed_Book> borrowedFeedBooks = new ArrayList<>();
                 for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
