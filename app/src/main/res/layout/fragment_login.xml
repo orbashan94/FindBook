@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Fragment_Login">
+
+
+    <ImageView
+        android:id="@+id/LOGIN_IMG_iconApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/ic_logo_s"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <EditText
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:id="@+id/edtEmail"/>
+
+    <EditText
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/edtEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:id="@+id/edtPass"/>
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"/>
+
+</RelativeLayout>

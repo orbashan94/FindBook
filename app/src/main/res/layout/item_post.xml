@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+     app:cardCornerRadius="20dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/imageViewBook"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/txtBookName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageViewBook"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/imageViewBook"
+            android:text="אבא עשיר אבא עני"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtBookTimeCreated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageViewBook"
+            android:layout_marginTop="10dp"
+             android:text="24/02/2021 21:54:32"
+            android:layout_alignParentEnd="true"
+            android:textColor="#0A410D"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtBookName"
+            android:layout_alignStart="@id/txtBookName"
+            android:layout_marginTop="4dp"
+            android:text="רוברט קיוסאקי"
+            android:textColor="#989898"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtCondition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtAuthor"
+            android:layout_alignStart="@id/txtAuthor"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/imageViewBook"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:text="מצב הספר: כמו חדש"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtBookGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtAuthor"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:text="History"
+            android:textColor="#3F51B5"
+            android:textSize="14sp" />
+
+
+
+
+
+            <TextView
+                android:layout_toEndOf="@+id/imageViewBook"
+
+                android:layout_below="@id/txtCondition"
+                android:layout_above="@+id/txtBookAddress"
+
+                android:id="@+id/txtDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit ="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scrollHorizontally="true"
+                android:text="Text dsfsdf dsj gh  hgfhfgh gh gfhgf  ghfghdgfh  121324 32vdsfh\ndgdfgfdgfd\nfgdfgdf\dfddsfsd\sdfsdfsdfdsfsd\nsdfsdfdsfdfd"
+                android:textColor="#3F51B5"
+                android:textSize="8sp" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/txtBookAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txtCondition"
+            android:layout_alignBottom="@+id/imageViewBook"
+            android:layout_alignParentBottom="true"
+            android:text="חולון 2.4 קילומטר ממיקומך"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

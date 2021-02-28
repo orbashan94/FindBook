@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph">
+
+
+    <fragment
+        android:id="@+id/fragment_Home"
+        android:name="war.of.findbook.fragments.Fragment_Home"
+        android:label="Fragment_Home" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_favorites"
+        android:name="war.of.findbook.fragments.Fragment_Home"
+        android:label="Fragment_Home" >
+        <action
+            android:id="@+id/action_fragment_Favorite_to_fragment_workout"
+            app:destination="@id/fragment_profile" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_profile"
+        android:name="war.of.findbook.fragments.Fragment_Home"
+        android:label="Fragment_Home" >
+
+    </fragment>
+
+
+</navigation>

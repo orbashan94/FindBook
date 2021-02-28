@@ -1,0 +1,70 @@
+<resources>
+
+    <string name="app_name">Social Library app</string>
+
+    <!--  login activity  -->
+    <string name="sign_in_cancelled">Sign In Cancelled</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="unknown_error">Unknown Error</string>
+
+    <!--    activity_register_login-->
+    <string name="welcome">Welcome</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <!--    fragment_welcome-->
+    <string name="signin">Sign in</string>
+    <string name="dont_have_account">Do not have an account? sign up here </string>
+    <string name="signup">Sign up</string>
+
+    <!--    fragment_register-->
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <!--    fragment_login-->
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter Password</string>
+
+    <!--     bottom nav bar-->
+    <string name="home">home</string>
+    <string name="history">history</string>
+    <string name="profile">profile</string>
+    <string name="chat">chat</string>
+
+
+    <!--    fragment_home-->
+    <string name="search_book">Search book name</string>
+
+    <!--    fragment_history-->
+    <string name="my_book">My book</string>
+    <string name="my_history">My history</string>
+    <string name="borrowed_book">Borrowed book</string>
+
+    <!--    fragment_profile-->
+    <string name="logout">Log out</string>
+
+    <!--fragment_post_book-->
+    <string name="post_book_for_borrow">Post Book For Borrow</string>
+    <string name="book_name">feedBook name</string>
+    <string name="book_author">Author</string>
+    <string name="book_description">Description</string>
+    <string name="new_book">New book</string>
+    <string name="upload_image">Upload image</string>
+    <string name="post_book">Post book</string>
+    <string name="prose">Prose </string>
+    <string name="biography">Biography</string>
+    <string name="development">Development</string>
+    <string name="study">Study</string>
+    <string name="children">Children</string>
+
+    <!--    fragment_dialog-->
+    <string name="take_book">Are you sure you are interested in this book?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+
+
+
+
+
+</resources>

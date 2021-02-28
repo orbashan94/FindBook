@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_register_login_navigation"
+    app:startDestination="@+id/navigation_welcome">
+
+    <fragment
+        android:id="@+id/navigation_welcome"
+        android:name="war.of.findbook.fragments.Fragment_Welcome"
+        android:label="@string/welcome"
+        tools:layout="@layout/fragment_welcome" />
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="war.of.findbook.fragments.Fragment_Login"
+        android:label="@string/login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/navigation_register"
+        android:name="war.of.findbook.fragments.Fragment_Register"
+        android:label="@string/register"
+        tools:layout="@layout/fragment_register" />
+</navigation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Fragment_Chat">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/recyclerViewChat"
+        android:layout_above="@+id/edtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:hint="Enter message"
+        android:layout_alignParentBottom="true"
+        android:imeOptions="actionSend"
+        android:id="@+id/edtMessage"/>
+
+</RelativeLayout>

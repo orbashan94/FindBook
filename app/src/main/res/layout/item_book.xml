@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:elevation="5dp" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/imageViewBook"
+                android:layout_width="60dp"
+                android:layout_height="90dp"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:id="@+id/txtBookTimeCreated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageViewBook"
+                android:layout_marginTop="0dp"
+                android:text="24/02/2021 21:54:32"
+                android:layout_alignParentEnd="true"
+                android:textColor="#0A410D"
+                android:textSize="6sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtBookName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignTop="@+id/imageViewBook"
+                android:layout_marginStart="2dp"
+                android:layout_toEndOf="@+id/imageViewBook"
+                android:text="אבא עשיר אבא עני"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtBookName"
+                android:layout_alignStart="@id/txtBookName"
+                android:layout_marginTop="4dp"
+                android:text="רוברט קיוסאקי"
+                android:textColor="#989898"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/txtBookGenre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtAuthor"
+                android:layout_toEndOf="@+id/txtCondition"
+                android:layout_marginStart="30dp"
+                 android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                 android:text="History"
+                android:textColor="#3F51B5"
+                android:textSize="10sp" />
+            <TextView
+                android:id="@+id/txtBookAvailable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtCondition"
+                android:layout_alignStart="@id/txtCondition"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:text="זמין להשאלה"
+                android:textColor="#000000"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/txtCondition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtAuthor"
+                android:layout_alignStart="@id/txtAuthor"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:text="מצב הספר: כמו חדש"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

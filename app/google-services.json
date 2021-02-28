@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "4272176056",
+    "firebase_url": "https://sharebook-6126b-default-rtdb.firebaseio.com",
+    "project_id": "sharebook-6126b",
+    "storage_bucket": "sharebook-6126b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4272176056:android:927b6421ee75df648aad4d",
+        "android_client_info": {
+          "package_name": "war.of.findbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4272176056-ld784rcrcrcstb0emqc5fqi2jijrl5l8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "war.of.findbook",
+            "certificate_hash": "c0c938d448f86048ae3a7760e4cc68cd76a05747"
+          }
+        },
+        {
+          "client_id": "4272176056-r08a0thmh22pji68vqnj1ikvanfg6mpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVsw463kPjqvfN9lc68_UZNz_vQpf8g6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4272176056-r08a0thmh22pji68vqnj1ikvanfg6mpv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

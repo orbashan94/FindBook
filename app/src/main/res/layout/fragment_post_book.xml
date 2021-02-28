@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Fragment_Post_Book">
+
+    <TextView
+        android:id="@+id/postBook_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/post_book_for_borrow"
+        android:textAllCaps="false"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/postBook_LBL_title"
+        android:ems="10"
+        android:hint="@string/book_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtName"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/book_author"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/edtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtAuthor"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/book_description"
+        android:inputType="textPersonName" />
+
+
+    <CheckBox
+        android:id="@+id/checkBoxCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtDesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="@string/new_book"/>
+
+
+    <HorizontalScrollView
+        android:id="@+id/genre"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/checkBoxCondition"
+        android:layout_marginTop="30dp">
+
+        <RadioGroup
+            android:id="@+id/rgGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbProse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/prose" />
+
+            <RadioButton
+                android:id="@+id/rbBiography"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/biography" />
+
+            <RadioButton
+                android:id="@+id/rbDevelopment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/development" />
+
+            <RadioButton
+                android:id="@+id/rbStudy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/study" />
+
+
+            <RadioButton
+                android:id="@+id/rbChildren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/children" />
+
+        </RadioGroup>
+    </HorizontalScrollView>
+
+
+    <Button
+        android:id="@+id/postBook_BTN_frontImg"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/genre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/upload_image" />
+
+
+    <Button
+        android:id="@+id/btnPost"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/postBook_BTN_frontImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/post_book" />
+
+
+
+
+</RelativeLayout>

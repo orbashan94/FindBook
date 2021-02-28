@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">הספרייה החברתית</string>
+
+
+    <string name="sign_in_cancelled">התחברות נכשלה</string>
+    <string name="no_internet_connection">איו חיבור אינטרנט</string>
+    <string name="unknown_error">תקלה לא ידוע</string>
+
+
+    <string name="home">בית</string>
+    <string name="history">היסטוריה</string>
+    <string name="profile">פרופיל</string>
+    <string name="chat">צ\'אט</string>
+
+
+    <string name="post_book_for_borrow">פרסום ספר להשאלה</string>
+    <string name="book_name">שם הספר</string>
+    <string name="welcome">ברוכים הבאים</string>
+    <string name="login">התחברות</string>
+    <string name="register">הרשמה</string>
+    <string name="signin">התחבר</string>
+    <string name="dont_have_account">אין לך משתמש? הרשם כאן</string>
+    <string name="signup">הרשמה</string>
+    <string name="name">שם מלא</string>
+    <string name="email">אימייל</string>
+    <string name="password">סיסמה</string>
+    <string name="enter_email">הזן אימייל</string>
+    <string name="enter_password">הזן סיסמא</string>
+    <string name="search_book">חיפוש ספר</string>
+    <string name="my_book">הספרים שלי</string>
+    <string name="my_history">ספרים שהשאלתי</string>
+    <string name="borrowed_book">ספרים שהושאלו ממני</string>
+    <string name="logout">התנתק</string>
+    <string name="book_description">תיאור הספר</string>
+    <string name="new_book">ספר חדש</string>
+    <string name="post_book">פרסם ספר</string>
+    <string name="upload_image">העלאת תמונה</string>
+    <string name="book_author">מחבר הספר</string>
+    <string name="prose">פרוזה</string>
+    <string name="biography">ביוגרפיה</string>
+    <string name="development">התפתחות</string>
+    <string name="study">לימוד/הדרכה</string>
+    <string name="children">ילדים</string>
+    <string name="take_book">מעוניין להשאיל ספר זה?</string>
+    <string name="yes">כן</string>
+    <string name="cancel">ביטול</string>
+
+
+</resources>
